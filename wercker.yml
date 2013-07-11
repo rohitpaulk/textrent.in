@@ -12,3 +12,8 @@ build:
     - script:
         name: generate site
         code: bundle exec jekyll build --trace
+deploy:
+  steps:
+    -script:
+       name: uploadftp
+       code: ./deploy.rb
