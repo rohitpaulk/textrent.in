@@ -1,1 +1,1 @@
-puts "hello"
+puts "Ruby script working"
