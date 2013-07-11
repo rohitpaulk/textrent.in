@@ -1,11 +1,8 @@
 print "Deployment Script in Python"
 
 import os
-password = os.environ['FTP_USERNAME']
-print password
-username = os.environ['FTP_PASS']
-print username
-
+password = os.environ['FTP_PASS']+'!'
+username = os.environ['FTP_USERNAME']
 host = 'textrent.in'
 
 import ftplib
