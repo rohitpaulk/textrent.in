@@ -12,6 +12,9 @@ build:
     - script:
         name: generate site
         code: bundle exec jekyll build --trace
+    - script:
+        name: prepare for deployment
+        code: bash prepare.sh
 deploy:
   steps:
     - script:
