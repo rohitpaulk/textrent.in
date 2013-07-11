@@ -16,4 +16,4 @@ deploy:
   steps:
     - script:
          name: uploadftp
-         code: ./deploy.rb
+         code: ./deploy.sh
