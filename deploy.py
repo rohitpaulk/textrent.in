@@ -20,7 +20,7 @@ def upload(ftp, file):
         ftp.storlines("STOR " + file, open(file))
     else:
         ftp.storbinary("STOR " + file, open(file, "rb"), 1024)
-upload(ftp, index.html)
+upload(ftp, 'index.html')
 ftp.quit()
 
 for line in data:
