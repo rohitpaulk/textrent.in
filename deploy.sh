@@ -1,6 +1,8 @@
 echo "Executing Script to Deploy"
 ls
-cd _site/
+mkdir transfer
+mv _site/* php
+cd php
 ls
 
 
