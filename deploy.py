@@ -1,4 +1,4 @@
 print "Deployment Script in Python"
 
-print $USERNAME
-print $PASSWORD
+import os
+print os.environ['USERNAME']
