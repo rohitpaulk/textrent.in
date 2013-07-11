@@ -16,4 +16,4 @@ deploy:
   steps:
     - script:
          name: uploadftp
-         code: sudo ./deploy.sh
+         code: bash deploy.sh
