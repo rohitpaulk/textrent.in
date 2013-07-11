@@ -1,9 +1,9 @@
 echo "Executing Script to Deploy"
 ls
-mkdir transfer
+mkdir php
 mv _site/* php
-cd php
-ls
+git init
+
 
 
 
