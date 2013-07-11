@@ -1,2 +1,5 @@
 echo "Executing Script to Deploy"
-ruby deploy.rb
+ls
+cd _site
+
+
