@@ -17,6 +17,4 @@ build:
         code: bash prepare.sh
 deploy:
   steps:
-    - script:
-         name: uploadftp
-         code: bash deploy.sh
+    - openshift-deploy
