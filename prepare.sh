@@ -1,12 +1,13 @@
 echo "Preparing for deployment to Openshift"
 mkdir php
-ls
-echo "no php should be there below"
 for i in $( ls ); do
     if [ $i != "php" ]; then
-        echo $i
         rm $i -r
     fi
 done
+mkdir libs
+mkdir misc
+touch deplist.txt
+touch README.md
 echo "final ls"
-ls
+ls ./*
