@@ -349,6 +349,7 @@ body
 {
 	max-width:340px;
 	width:100%;
+	margin-top:0px;
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
@@ -357,7 +358,7 @@ body
 {
 	margin-top: 0px;
 	padding-top:5%;
-	max-height:340px;
+	
 }
 .sectiontext span
 {
