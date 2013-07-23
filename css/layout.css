@@ -18,9 +18,15 @@
 ================================================== */
 body
 {
+	
+	font-family: "Georgia";
 	color:rgb(74,65,62);
 	//background-color: rgb(74,65,62);
 	background-image: url(../img/background.jpg);
+}
+span
+{
+	color:rgb(255,72,0);
 }
 .container
 {
@@ -210,6 +216,7 @@ body
 ================================================== */
 /* Colleges */
 
+
 .promotext
 {
 	color:rgb(74,65,62);
@@ -217,6 +224,16 @@ body
 	margin-top:20px;
 	margin-bottom:20px;
 }
+.promotext a
+{
+	
+	text-decoration: underline;
+}
+.promotext a:hover
+{
+	color:rgb(255,72,0);
+}
+
 
 .promotext h1{
 	
