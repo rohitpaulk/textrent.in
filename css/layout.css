@@ -219,6 +219,7 @@ span
 
 .promotext
 {
+	
 	color:rgb(74,65,62);
 	text-align: center;
 	margin-top:20px;
@@ -325,7 +326,7 @@ span
 	background-image: url('../img/pattern1.jpg');	
 }
 
-#collegeadd
+#collegeropar
 {
 	background-image: url('../img/pattern1.jpg');	
 }
@@ -381,6 +382,11 @@ span
 {
 
 	color:rgb(255,72,0);
+}
+
+.faqs
+{
+	font-size: 20px;
 }
 
 /* #Media Queries
