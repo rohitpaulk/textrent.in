@@ -120,7 +120,32 @@ span
 	color:rgb(255,72,0);
 }
 
+/*Text */
 
+.text
+{
+
+	font-size: 20px;
+}
+.text a:hover
+{
+	color:rgb(255,72,0);
+}
+.text h3
+{
+	color:rgb(255,72,0);
+}
+.text h4
+{
+	font-weight: bold;
+}
+
+.text li
+{
+	list-style: none;
+}
+
+/* Footer */
 .leftfooter
 {
 	text-align: right;
