@@ -1,6 +1,8 @@
 TextRent.in
 ===========
 
-TextRent.in Homepage. Currently under development. Powered by Jekyll and Wercker.
+TextRent.in Homepage. Powered by Jekyll and Wercker.
 
-Currently Hosted at : http://phptest-rohitpaulk.rhcloud.com/
+Development : http://phptest-rohitpaulk.rhcloud.com/
+
+Production : http://www.textrent.in/
